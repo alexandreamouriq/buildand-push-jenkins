@@ -1,7 +1,7 @@
 node {
 
    def registryProjet='forma-alex/'
-   def IMAGE="${registryProjet}app:5.3"
+   def IMAGE="${registryProjet}app:5.4"
 
     stage('Clone') {
           checkout scm
